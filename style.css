@@ -1,0 +1,210 @@
+body{
+    margin:0;
+    font-family: Arial;
+}
+
+.login-body{
+    background:url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200') no-repeat center center/cover;
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+}
+
+.login-box{
+    width:350px;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    background:rgba(255,255,255,0.2);
+
+    backdrop-filter:blur(10px);
+
+    color:white;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.login-box h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+.sidebar{
+    width:250px;
+    height:100vh;
+    background:#0d6efd;
+    position:fixed;
+    color:white;
+    padding-top:20px;
+}
+
+.logo{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+}
+
+.sidebar ul li{
+    padding:15px;
+}
+
+.sidebar ul li a{
+    color:white;
+    text-decoration:none;
+    display:block;
+}
+
+.sidebar ul li:hover{
+    background:rgba(255,255,255,0.2);
+    transform:translateX(5px);
+    transition:0.3s;
+}
+
+.main-content{
+    margin-left:250px;
+    padding:20px;
+    background:#f4f6f9;
+    min-height:100vh;
+}
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.dashboard-card{
+    padding:20px;
+    border:none;
+    border-radius:10px;
+    box-shadow:0px 0px 8px lightgray;
+}
+
+.dashboard-card h2{
+    margin-top:10px;
+    color:#0d6efd;
+}
+
+
+/* DARK MODE */
+
+.dark-mode{
+    background:#121212 !important;
+    color:white;
+}
+
+.dark-mode .main-content{
+    background:#1e1e1e;
+}
+
+.dark-mode .card{
+    background:#2a2a2a;
+    color:white;
+}
+
+.dark-mode table{
+    color:white;
+}
+table th{
+    background:#0d6efd !important;
+    color:white !important;
+}
+
+.btn-warning{
+    color:white;
+}
+.toast{
+    background:white;
+    border-radius:10px;
+    box-shadow:0px 0px 8px gray;
+}
+
+.table-hover tr:hover{
+    background:#f2f2f2;
+}
+.status-card{
+    color:white;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0px 0px 10px lightgray;
+}
+
+.status-card i{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.status-card h4{
+    margin:10px 0;
+}
+@media(max-width:768px){
+
+    .sidebar{
+        width:100%;
+        height:auto;
+        position:relative;
+    }
+
+    .main-content{
+        margin-left:0;
+    }
+
+    .topbar{
+        flex-direction:column;
+        gap:15px;
+    }
+
+}
+.top-right{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.search-box{
+    border:none;
+    padding:10px 15px;
+    border-radius:30px;
+    outline:none;
+    background:white;
+    width:220px;
+    box-shadow:0px 0px 5px lightgray;
+}
+
+.notification-icon{
+    font-size:22px;
+    cursor:pointer;
+}
+
+.profile-img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+@media(max-width:768px){
+
+    .top-right{
+        flex-direction:column;
+        width:100%;
+    }
+
+    .search-box{
+        width:100%;
+    }
+
+    .dashboard-card{
+        margin-bottom:20px;
+    }
+
+}
