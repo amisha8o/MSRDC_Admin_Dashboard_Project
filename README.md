@@ -245,11 +245,6 @@ Through this project, the following concepts were implemented and practiced:
 ## Amisha Kumari
 Software Developer | Full Stack Web Developer
 
-
-
----
-
-
 ---
 
 # 📌 Project Status
