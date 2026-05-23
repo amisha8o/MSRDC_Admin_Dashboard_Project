@@ -11,7 +11,7 @@ The dashboard interface is inspired by real-world enterprise admin systems and f
 # 🔗 Live Repository
 
 ## GitHub Repository
-:contentReference[oaicite:0]{index=0}
+https://github.com/amisha8o
 
 ---
 
@@ -245,15 +245,10 @@ Through this project, the following concepts were implemented and practiced:
 ## Amisha Kumari
 Software Developer | Full Stack Web Developer
 
-### Connect With Me
 
-- GitHub: :contentReference[oaicite:1]{index=1}
 
 ---
 
-# ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub and share it with others.
 
 ---
 
